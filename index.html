@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<head>
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="file.css">
+    <script src="https://kit.fontawesome.com/81fcbf21e4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <div class="logo">PORTFOLIO</div>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Projects</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" id="varsha" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-sharp fa-solid fa-bars" id="varsha" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h5 align="center">HEY! I AM</h5>
+            <h1 align="center"><span>Manchani Varsha</span></h1>
+            <h4 style="color:black">This is my official portfolio website to show all <center>Details and works i have done.</center></h4>
+            <center><a href="images/resume.pdf" download class="btn btn2 bt1">Download Resume</a></center>
+        </div>
+    </div>
+  
+</div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+               <img src="images/photo1.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    I am a punctual and motivated individual who is able to work in a busy environment and produce high
+                    standards of work. I am an excellent team worker and am able to take instructions from   all    levels and   
+                    build up good working relationships with all colleagues. I am flexible, reliable, possess excellent
+                    time keeping skills.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('education')">EDUCATION</p>
+                    <p class="tab-links" onclick="opentab('skills')">SKILLS</p>
+                    <p class="tab-links" onclick="opentab('area')">AREA OF INTEREST</p>
+                </div>
+                <div class="tab-contents active-tab" id="education">
+                    <ul style="color:white;">
+                        <li><span style="font-size:20px;">Bachelor of Technology</span><br>CMR Technical Campus,Medchal,Hyderabad<br>2020-2024<br>GGPA:8.94*</li>
+                        <li><span style="font-size:20px;">Intermediate</span><br>Narayana Junior College,Hyderabad<br>2018-2020<br>GGPA:9.76</li>
+                        <li><span style="font-size:20px;">Class X</span><br>Montessori High School,Kurnool<br>2017-2018<br>GGPA:9.8</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="skills">
+                    <ul style="color:white;">
+                        <li><span>Programming Languages</span><br>C++,Python,C,Java</li>
+                        <li><span>Web Technologies</span><br>HTML5, CSS3, Javascript , React JS ,PHP</li>
+                        <li><span>Database Technologies</span><br>SQL,Mysql</li>
+                        <li><span>Operating Systems</span><br>Windows,Android</li>
+                        <li><span>Other Tools</span><br>Visual Studio Code,Dev C++</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="area">
+                    <ul style="color:white;">
+                        <li>Software Developer</li>
+                        <li>Web Development</li>
+                        <li>Data Structures And Algorithms</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="service">
+    <center>
+        <div class="container">
+            <h1 class="sub-title" align="center">My Projects</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-video"></i>
+                    <h2>Video-Based Abnormal Driving Behaviour detection Via Deep Learning Fusions</h2>
+                    <p>This project is highly important nowadays, as it is a reliable and automatic
+                       manner to ensure safeties of drivers.And main advantage of this project is
+                       affecting drivers normal drivings cannot be neglected.</p>
+                       <br><br>
+                    <h4>Technologies and Tools Used:<br><br><span id="var">Python3.7 ,Deep Learning ,VS Code</span></h4>
+    
+                       <a class="btn" href ="#" sytle="font-size:10px;">VIEW</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-folder-open"></i>
+                    <h2>PORTFOLIO</h2>
+                    <p>An interface which describe my skills and achievements.</p><br><br>
+                    <h4>Technologies and Tools Used:<br><br><span id="var">HTML5 ,CSS ,Javascript</span></h4>
+                    <br>
+    
+                    <a class="btn" href ="#" sytle="font-size:10px;">VIEW</a>
+                </div>
+            </div>
+        </div>
+    </center>
+    
+</div>
+
+
+<div id="portfolio">
+    <div class="container">
+        
+        <h1 class="sub-title" id="pinky" align="center">My Work</h1>
+        <div class="row">
+            <div class="contact-left">
+                <h1>CODING PROFILES</h1>
+                <ul style="color:red;">
+                    <li>
+                        <p style="color:black;">Solved <span style="color:red;">300+</span> problems in LeetCode.</p>
+                    </li>
+                    <li>
+                        <div>
+                            <img class="c1"src="images/codechef.jpeg">
+                            <a id="sayeed"href="https://www.codechef.com/users/varsha_5f8"><span>--CodeChef</span></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img class="c1"src="images/leetcode.png">
+                            <a id="sayeed"href="https://leetcode.com/207R1A05F8/"><span>--LeetCode</span></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img class="c1"src="images/hackerrank.png">
+                            <a id="sayeed" href="https://www.hackerrank.com/manchanivarsha61"><span>--HankerRank</span></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img class="c1"src="images/vjudge.png">
+                            <a id="sayeed"href="https://vjudge.net/user/207R1A05F8"><span>--Vjudge</span></a>
+                        </div>
+                    </li>   
+                </ul> 
+            </div>
+            <div class="contact-left">
+                <h1></h1>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+       <div class="row">
+        <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-envelopes-bulk"></i>manchanivarsha6291@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>7995652102</p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/varsha_6291/"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/manchani-varsha-81998b206"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/manchanivarsha"><i class="fa-brands fa-github"></i></a>
+        </div>
+        
+    </div>
+    <div class="contact-right">
+        <form action="https://formspree.io/f/myyabkan" method="POST">
+            <input type="text"  name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+        </form>
+    </div>
+       </div> 
+    </div>
+    <div class="copyright">
+        <p>copyright © MANCHANI VARSHA</p>
+    </div>
+</div>
+<script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent  of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+</body>
+</html>
